@@ -17,17 +17,6 @@ which match a WebGL member name have their content be displayed in the applicati
 To run the application either run the file directly in Firefox or use `npx serve .`
 in Chrome or other browsers.
 
-- Add GitHub Pages URL
-- Find out what a stencil buffer is
-- Make a demo of drawing single points and polylines
-- Find out how `LINES` and `LINE_STRIP` differ
-- Find out how the triangle variations differ
-- Make a demo of `blendFunc` and `blendFuncSeparate` and the equations methods
-- Find out what `ARRAY_BUFFER_BINDING` does
-- Find out what the default face culling is and make a demo for it
-- See if `VIEWPORT` changes if the `canvas` dimensions change because `getContext`
-  always returns the same instance which doesn't seem to adjust for dimensions
-
 ## `DEPTH_BUFFER_BIT`
 
 A constant passed to `clear` to clear the depth buffer.
@@ -81,3 +70,23 @@ https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Constants#Front_face_
 https://developer.mozilla.org/en-US/docs/Web/API/WebGL_API/Constants#Front_face_directions
 
 ## To-Do
+
+### Add GitHub Pages URL
+
+### Find out what a stencil buffer is
+
+### Make a demo of drawing single points and polylines
+
+### Find out how `LINES` and `LINE_STRIP` differ
+
+### Find out how the triangle variations differ
+
+### Make a demo of `blendFunc` and `blendFuncSeparate` and the equations methods
+
+### Find out what `ARRAY_BUFFER_BINDING` does
+
+### Find out what the default face culling is and make a demo for it
+
+### See if `VIEWPORT` changes if the `canvas` dimensions change
+
+Because `getContext` always returns the same instance which doesn't seem to adjust for dimensions
